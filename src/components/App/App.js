@@ -80,6 +80,7 @@ function App() {
             style={{ marginLeft: "10px" }}
           />
           <StyledSearch
+            autoFocus
             type="text"
             placeholder="Search"
             value={searchTerm}
